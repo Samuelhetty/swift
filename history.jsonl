@@ -1,0 +1,12 @@
+{"event": "teardown", "clean": false, "ts": "2026-05-06T19:11:18.250346Z"}
+{"event": "teardown", "clean": false, "ts": "2026-05-06T19:18:41.180142Z"}
+{"event": "pre-deploy-check", "passed": true, "host_stats": {"disk_free_gb": 74.15, "disk_total_gb": 237.78, "cpu_load": 1.0, "mem_free_percent": 13.91}, "results": [{"domain": "infra", "passed": true, "violations": [], "error": "OPA unavailable: OPA unreachable at http://localhost:8181/v1/data/swiftdeploy/infra/decision: [WinError 10061] No connection could be made because the target machine actively refused it"}], "ts": "2026-05-06T19:18:51.652185Z"}
+{"event": "deploy", "status": "success", "mode": "canary", "ts": "2026-05-06T19:20:12.491002Z"}
+{"event": "pre-deploy-check", "passed": true, "host_stats": {"disk_free_gb": 74.1, "disk_total_gb": 237.78, "cpu_load": 0.36, "mem_free_percent": 12.5}, "results": [{"domain": "infra", "passed": true, "violations": [], "error": "OPA unavailable: All OPA query methods failed: docker exec OPA query failed: "}], "ts": "2026-05-06T19:24:57.364Z"}
+{"event": "deploy", "status": "success", "mode": "canary", "ts": "2026-05-06T19:25:41.359Z"}
+{"event": "teardown", "clean": false, "ts": "2026-05-06T19:34:39.421Z"}
+{"event": "pre-deploy-check", "passed": true, "host_stats": {"disk_free_gb": 74.1, "disk_total_gb": 237.78, "cpu_load": 0.5, "mem_free_percent": 6.98}, "results": [{"domain": "infra", "passed": true, "violations": [], "error": "OPA unavailable: All OPA query methods failed: docker exec OPA query failed: Error response from daemon: No such container: swiftdeploy-opa"}], "ts": "2026-05-06T19:35:06.622Z"}
+{"event": "deploy", "status": "success", "mode": "canary", "ts": "2026-05-06T19:36:03.321Z"}
+{"event": "status_scrape", "error": "Cannot scrape /metrics: HTTP Error 404: Not Found", "ts": "2026-05-06T19:44:22.621Z"}
+{"event": "status_scrape", "error": "Cannot scrape /metrics: HTTP Error 404: Not Found", "ts": "2026-05-06T19:44:27.647Z"}
+{"event": "status_scrape", "error": "Cannot scrape /metrics: HTTP Error 404: Not Found", "ts": "2026-05-06T19:44:32.679Z"}
